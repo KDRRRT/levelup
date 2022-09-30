@@ -4,5 +4,5 @@ b = input("Введите второе число")
 b = int(b)
 print(a + b)
 print(a - b)
-print(a * b)6
+print(a * b)
 
