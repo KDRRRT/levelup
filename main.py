@@ -1,8 +1,10 @@
 a = input("Введите первое число")
 a = int(a)
-b = input("Введите второе число")
+b = input("Введите первое число")
 b = int(b)
-print(a + b)
-print(a - b)
-print(a * b)
-
+if a > b:
+    print(b)
+elif b > a:
+    print(a)
+else:
+    print("Числа равны")
