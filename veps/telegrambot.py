@@ -4,7 +4,7 @@
 
 import telebot
 
-from veps.tg_def import get_word
+from tg_def import get_word
 
 bot = telebot.TeleBot("5703002222:AAFp-EydFC7G9-y0psUeAiCsGh-v8k65030")
 
